@@ -1,0 +1,23 @@
+{
+    "name": "weather/yii2-weather",
+    "description": "Widget displays weather information for current location if allowed.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","weather"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pierre M",
+            "email": "test@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+		"bower-asset/weather-widget": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "test\\weather\\": ""
+        }
+    }
+}
